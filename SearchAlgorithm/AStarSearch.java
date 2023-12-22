@@ -13,7 +13,7 @@ public class AStarSearch {
     // 定义上下左右四个方向
     private static final int[][] directions = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
     private static final char[][] maze = readMazeFromFile(
-            "C:\\Users\\yueyue\\Desktop\\人工智能导论\\SearchAlgorithm\\mediumMaze.txt");
+            ".\mediumMaze.txt");
 
     static class Node {
         Point position;
